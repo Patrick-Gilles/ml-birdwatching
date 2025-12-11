@@ -10,8 +10,7 @@ The main Jupyter notebook for data processing and model training/evaluation. Req
 
 Raw data files were not included due to size. The data files included represent the result of running ebird_first.R on raw data downloaded from eBird.
 
-## randomforest.pkl
-A file containing the serialized forest model used in feature importance. Its generation is shown at the end of birds_ml.ipynb
+A checkpoint file containing the serialized forest model used in feature importance was not included due to its large size, even when compressed. It can be generated through the final cell of birds_ml.ipynb. Model training should take less than a minute on modern hardware.
 
 ## requirements.txt
 Lists required python packages for the jupyter notebook to run
